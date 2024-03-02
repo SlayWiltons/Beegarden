@@ -36,4 +36,13 @@ public class ObjPool_Flowers : MonoBehaviour
     {
         rechargeFlowers.Remove(flower);
     }
+
+    /*private void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            var id = Random.Range(0, freeFlowers.Count);
+            freeFlowers[id].GetComponent<Flower>().ChangeValue(20);
+        }
+    }*/
 }
